@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Countdown</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+   
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <a class="navbar-brand" href="http://jeffchenga.esy.es/">
+                      <img alt="Brand" src="http://jeffchenga.esy.es/logo_small.png">
+                  </a>
+              </div>
+          </div>
+      </nav>
+
+<div class="jumbotron">   
+	<div class="container" align="center">
+		<canvas id="myCanvas" width="620" height="500"
+					style="border:1px solid #000000;">
+		</canvas>  
+		<script src="http://jeffchenga.esy.es/dist/countdown.js"></script> 
+	</div>
+</div>
+
+<div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <a class="btn btn-primary" data-toggle="collapse" href="#rules" aria-expanded="false" aria-controls="rules">
+				  		Rules
+				  </a>
+				  <div class="collapse" id="rules">
+					  <div class="well"> 
+						<h2>Rules of the game</h2>
+					  	 <ul>
+					  	 	  <li> A player gets 9 random letters - he can pick a random vowel or a random consonant one at a time</li>
+					  	 	  <li> As soon as all the letteres are randomed, player can assemble words from them by clicking on the letters on the board</li>
+		                      <li> The goal is to make the longest word out of letters on the board</li>
+		                      <li> If the word is found in English dictionary, number of letters in this word is added to players score</li>
+					  	 </ul> 
+					  <a name="#rules"></a>
+					  </div>
+				  </div>
+              </div>
+              <div class="col-md-4">
+              	  <a class="btn btn-primary" data-toggle="collapse" href="#links" aria-expanded="false" aria-controls="links">
+				  		YouTube links
+				  </a>
+				  <div class="collapse" id="links">
+					  <div class="well"> 
+					  	 <p><a href="https://www.youtube.com/watch?v=GvV8aVEJmiU">Series 60 Grand Final</a></p>
+						 <p><a href="https://www.youtube.com/watch?v=8zPfZ7aFQxM">8 Out Of 10 Cats Does Countdown</a></p>
+						  <a name="#links"></a>
+					  </div>
+				  </div>  
+              </div>
+              <div class="col-md-4">
+              	  <a class="btn btn-primary" data-toggle="collapse" href="#dev" aria-expanded="false" aria-controls="dev">
+				  		What next?
+				  </a>
+				  <div class="collapse" id="dev">
+					  <div class="well"> 
+					  	 <h2>Next in development</h2>
+					  	 <ul>
+					  	 	  <li> Multiplayer</li>
+					  	 	  <li> Global scoreboard</li>
+		                      <li> Different languages</li>
+		                      <li> Numbers round</li>
+		                      <li> Conundrum round</li>
+		                      <li> Animations and stuff</li>
+					  	 </ul>
+					  	 <a name="#dev"></a>
+					  </div>
+				  </div>  
+              </div>
+          </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; JeffChenga 2015</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-right">jeffchenga@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+          <!-- Bootstrap core JavaScript
+        ================================================== -->
+          <!-- Placed at the end of the document so the pages load faster -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script src="../../dist/js/bootstrap.min.js"></script>
+          <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+          <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
